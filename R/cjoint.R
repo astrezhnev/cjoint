@@ -1092,6 +1092,12 @@ get.conditional.effects <- function(object, conditional.levels, current.effect, 
         turn_off <- rep(1,ncol(pred_mat))
         names(turn_off) <- colnames(pred_mat)         
         turn_off[cond.base] <- 0
+        
+        ### Fix 3/20/2025 - Need to turn off *all baselines* for interaction objects 
+        ### (ones that don't contain the **specific interaction** of interest)
+        mod_coef_contain <- grep(mod_coef, colnames(pred_mat), invert=T)
+        turn_off[mod_coef_contain] <- 0
+        
         # Use to turn off terms in pred_mat that only contain respondent varying items
         pred_mat <- pred_mat[1,]*turn_off
         ## (4) Calculate coefficient and SE

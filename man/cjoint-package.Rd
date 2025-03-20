@@ -12,8 +12,8 @@ This package allows researchers to estimate the causal effects of attributes in 
 \tabular{ll}{
 Package: \tab cjoint\cr
 Type: \tab Package\cr
-Version: \tab 2.1.1\cr
-Date: \tab 2023-08-21\cr
+Version: \tab 2.1.2\cr
+Date: \tab 2025-03-20\cr
 License: \tab GPL (>= 2)\cr
 }
 
