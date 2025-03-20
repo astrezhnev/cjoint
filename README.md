@@ -18,3 +18,9 @@ Anton Strezhnev <astrezhnev@uchicago.edu>
 
 ## References:
 Hainmueller, J., Hopkins, D., and Yamamoto T. (2014) Causal Inference in Conjoint Analysis: Understanding Multi-Dimensional Choices via Stated Preference Experiments. Political Analysis 22(1):1-30
+
+## Installation Guide:
+
+To install the `Github` version of the `cjoint` package, use the following command:
+
+`remotes::install_github("astrezhnev/cjoint")`
