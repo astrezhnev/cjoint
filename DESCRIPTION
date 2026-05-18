@@ -3,7 +3,7 @@ Version: 2.1.2
 Date: 2025-03-20
 Title: AMCE Estimator for Conjoint Experiments
 Author: Soubhik Barari, Elissa Berwick, Jens Hainmueller, Daniel Hopkins, Sean Liu, Anton Strezhnev, Teppei Yamamoto
-Maintainer: Anton Strezhnev <astrezhnev@uchicago.edu>
+Maintainer: Anton Strezhnev <strezhnev@wisc.edu>
 Depends: R (>= 2.10), sandwich, lmtest, ggplot2, survey, Matrix
 Imports: stats, utils, methods, DT, shiny, shinyjs
 Suggests: testthat
