@@ -7,7 +7,8 @@
 #' @importFrom stats coefficients formula lm model.matrix pnorm qnorm 
 #' @importFrom stats quantile relevel terms var vcov
 #' @importFrom stats as.formula reshape
-#' @importFrom utils read.csv packageDescription
+#' @importFrom utils read.csv packageDescription View data
+#' @importFrom grDevices pdf dev.off
 #' @export amce
 #' @export makeDesign
 #' @export plot.amce

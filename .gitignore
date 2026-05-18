@@ -1,0 +1,25 @@
+# History and session data
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# RStudio
+.Rproj.user/
+*.Rproj
+
+# R package build artifacts
+*.tar.gz
+*.tgz
+..Rcheck/
+*.Rcheck/
+MD5
+
+# Compiled source (if src/ is ever added)
+src/*.o
+src/*.so
+src/*.dll
+
+# OS junk
+.DS_Store
+Thumbs.db

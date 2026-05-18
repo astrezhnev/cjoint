@@ -6,15 +6,15 @@ This package allows researchers to estimate the causal effects of attributes in 
 ## Details
   Package: `cjoint`
   Type: `R Package`
-  Version: 2.1.2
-  Date: 2025-03-20
+  Version: 2.1.3
+  Date: 2026-05-18
   License: GPL (>= 2)
 
 ## Authors: 
 Soubhik Barari, Elissa Berwick, Jens Hainmueller, Daniel Hopkins, Sean Liu, Anton Strezhnev, Teppei Yamamoto
 
 ## Maintainer: 
-Anton Strezhnev <astrezhnev@uchicago.edu>
+Anton Strezhnev <strezhnev@wisc.edu>
 
 ## References:
 Hainmueller, J., Hopkins, D., and Yamamoto T. (2014) Causal Inference in Conjoint Analysis: Understanding Multi-Dimensional Choices via Stated Preference Experiments. Political Analysis 22(1):1-30
